@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \RequirePackage{expl3 , xparse , l3keys2e}
-\ProvidesExplClass{work-template}{2023/05/12}{0.1}{work template}
+\ProvidesExplClass{work-template}{2023/05/12}{0.1}{Test work template}
 
 \msg_new:nnn { work-template } { engine-error }
   {
