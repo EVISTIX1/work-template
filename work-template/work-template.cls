@@ -81,8 +81,8 @@
 
 % 英文字体
 \cs_new_protected:Npn \__wktemp_set_font_default: { }
-%\cs_new_protected:Npn \__wktemp_set_font_times:
-%  { \setmainfont { Times~ New~ Roman } }
+\cs_new_protected:Npn \__wktemp_set_font_times:
+  { \setmainfont { Times~ New~ Roman } }
 
 % 中文字体
 \cs_new_protected:Npn \__wktemp_set_cjk_font: {}
@@ -213,6 +213,8 @@
         \char_set_active_eq:nN { `。 } ．
       }
   }
+
+\RequirePackage { tikz, amsmath }
 
 \keys_define:nn { wktemp }
   {
